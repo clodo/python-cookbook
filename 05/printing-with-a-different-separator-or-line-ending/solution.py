@@ -8,3 +8,7 @@ print('ACME', 50, 91.5, sep=',', end='!!\n')
 for i in range(5):
     print(i, end=' ')
 # 0 1 2 3
+
+row = ('ACME', 50, 91.5)
+print(*row, sep=',')
+# ACME,50,91.5
